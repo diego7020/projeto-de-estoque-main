@@ -10,7 +10,7 @@ public class FuncionarioRepositorio extends BaseRepositorio<Funcionario> {
 
     public FuncionarioRepositorio() {
         this.db = new FuncionarioFakeDB();
-        this.dados = db.getTabelaFuncionario();
+        this.dados = db.getTabela();
     }
 
     @Override
